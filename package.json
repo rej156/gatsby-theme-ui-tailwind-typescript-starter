@@ -16,6 +16,7 @@
     "gatsby-plugin-react-helmet": "^3.1.14",
     "gatsby-plugin-sharp": "^2.2.37",
     "gatsby-plugin-theme-ui": "^0.2.43",
+    "gatsby-plugin-typescript": "^2.1.26",
     "gatsby-source-filesystem": "^2.1.36",
     "gatsby-theme-style-guide": "^0.2.49",
     "gatsby-transformer-sharp": "^2.3.3",
@@ -27,13 +28,16 @@
     "theme-ui": "^0.2.49"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@types/theme-ui": "^0.2.6",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
+    "dev": "gatsby develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
